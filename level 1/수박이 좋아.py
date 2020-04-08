@@ -7,4 +7,4 @@ def solution(n):
             s +="수"
     return s
 
-print(solution(9999))
+
