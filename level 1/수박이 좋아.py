@@ -6,3 +6,5 @@ def solution(n):
         else:
             s +="수"
     return s
+
+print(solution(9999))
