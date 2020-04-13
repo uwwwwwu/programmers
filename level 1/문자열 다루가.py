@@ -18,24 +18,23 @@
 #         return False
 # 5번 6번 틀림
 
-'''
-범위 지정
+
+# 범위 지정
 import re
 
-
-def solution(s):
-    if len(s) > 6 or len(s) < 4:
-        return False
-
-    sutza = re.findall("\d+", s)
-    Sutza = ','.join(list(sutza))
-    if Sutza == s:
-        return True
-    else:
-        return False
-
-근데 여전히 5번 실패
-'''
+#
+# def solution(s):
+#     if len(s) > 6 or len(s) < 4:
+#         return False
+#
+#     sutza = re.findall("\d+", s)
+#     Sutza = ','.join(list(sutza))
+#     if Sutza == s:
+#         return True
+#     else:
+#         return False
+#
+# 근데 여전히 5번 실패
 
 # import re
 #
