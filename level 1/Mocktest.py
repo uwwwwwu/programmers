@@ -28,4 +28,5 @@ def solution(answers):
     if beststudent == t_score:
         answer.append(3)
     return answer
+    for i in range(3)
 # 가장 잘찍는 친구 찾기
